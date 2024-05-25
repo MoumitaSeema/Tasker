@@ -1,5 +1,4 @@
-import React from "react";
-import logo from "./assets/frame.png";
+import frame from "./assets/frame.jpg";
 
 const HeroSection = () => {
   return (
@@ -7,8 +6,8 @@ const HeroSection = () => {
       <div className="grid md:grid-cols-2 items-center gap-6 lg:px-20 ">
         <div className=" flex justify-center md:order-2">
           <img
-            className="max-md:w-full"
-            src={logo}
+            className="rounded-lg max-md:w-full"
+            src={frame}
             height="290"
             width="326"
             alt="frame"
